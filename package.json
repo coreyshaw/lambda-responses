@@ -1,0 +1,37 @@
+{
+  "name": "lambda-responses",
+  "version": "1.0.0",
+  "description": "Simple npm package for helping with lambda responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha $(find test -name '*.js')",
+    "build": "babel src/ --copy-files --out-dir lib",
+    "eslint": "eslint . --ext .js",
+    "eslint:fix": "eslint . --ext .js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreyshaw/lambda-responses.git"
+  },
+  "keywords": [
+    "lambda",
+    "responses",
+    "lambda-responses",
+    "serverless"
+  ],
+  "author": "Corey Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coreyshaw/lambda-responses/issues"
+  },
+  "homepage": "https://github.com/coreyshaw/lambda-responses#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.1.0",
+    "mocha": "^6.2.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^6.2.1"
+  }
+}
