@@ -3,7 +3,9 @@ Lambda Responses
 
 [![Build Status](https://travis-ci.org/coreyshaw/lambda-responses.svg?branch=master)](https://travis-ci.org/coreyshaw/lambda-responses)
 
-Simple library to help with lambda responses.
+Simple library to help with lambda responses. 
+* ***Note:*** This tool was build to be used internally but wanted to make it available to others if needed.
+* ***Credit:*** https://github.com/AnomalyInnovations/serverless-stack-demo-api
 
 ### Success
 
